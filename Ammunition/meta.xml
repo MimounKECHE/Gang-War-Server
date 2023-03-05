@@ -1,0 +1,6 @@
+<meta>
+    <file src="simpo.ttf" />
+    <script src="Ammu.lua" type="server" />
+    <script src="AmmuC.lua" type="client" />
+    <min_mta_version client="1.5.8-9.20844"></min_mta_version>
+</meta>

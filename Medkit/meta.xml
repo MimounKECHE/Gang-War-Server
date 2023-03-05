@@ -1,0 +1,7 @@
+<meta>
+    <script src="medkit.lua" type="server" />
+    <script src="medkitC.lua" type="client" />
+    <file src="medkit.dff" />
+    <file src="medkit.txd" /> 
+    <min_mta_version client="1.5.8-9.20844"></min_mta_version>
+</meta>
