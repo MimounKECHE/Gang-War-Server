@@ -1,0 +1,5 @@
+<meta>
+    <script src="Restaurant.lua" type="server" />
+    <script src="RestaurantC.lua" type="client" />
+    <min_mta_version client="1.5.8-9.20844"></min_mta_version>
+</meta>
