@@ -1,0 +1,5 @@
+<meta> 
+    <script src="Drop_Loot.lua" type="server"/>
+    <script src="Drop_Loot_C.lua" type="client"/>
+    <export function="MakeMoney" type="server"/>
+</meta> 
