@@ -32,6 +32,7 @@ local AmmuStorsMeta = {
 }
 
 addEventHandler("onMarkerHit",resourceRoot,function (hitElement)
+  if (getElementType( hitElement ) == "player") and (isPedInVehicle(hitElement) == false) then
     local ID = getElementID(source)
     if getMarkerType(source) == "corona" then
       local AmmuStors = AmmuStorsMeta[ID].AmmuStors
@@ -40,6 +41,7 @@ addEventHandler("onMarkerHit",resourceRoot,function (hitElement)
       triggerClientEvent("PlayerBayGun",hitElement,ID)
       outputChatBox("bay ammu")
     end
+  end
 end)
 
 
