@@ -1,6 +1,6 @@
 --/sfxBrowser.
-setDevelopmentMode(true)
-showCol(true)
+--setDevelopmentMode(true)
+--showCol(true)
 ------------------العلامة على الخريطة----------------------------
 createBlip(2412.39,-1502.09,31.89,14,2,255, 0, 0, 255,0,350) --Cluckin' Bell
 createBlip(2105.80,-1806.46,13.80,29,2,255, 0, 0, 255,0,350) -- Pizza

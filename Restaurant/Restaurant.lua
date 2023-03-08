@@ -25,11 +25,13 @@ local RestauraMeta = {
 }
 
 addEventHandler("onMarkerHit",resourceRoot,function (hitElement)
+  if (getElementType( hitElement ) == "player") and (isPedInVehicle(hitElement) == false) then
     local ID = getElementID(source)
     if getMarkerType(source) == "corona" then
       local Restaura = RestauraMeta[ID].Restaura
       setElementInterior(hitElement,Restaura[1],Restaura[2],Restaura[3],Restaura[4])
     end
+  end
 end)
 
 -----------------------------علامة الاكل---------------------
