@@ -1,0 +1,7 @@
+<meta>
+    <script src="timer.lua" type="client" />
+    <file src="black.png" />
+    <export function="TimerGo" type="client"/>
+    <export function="TimerStop" type="client"/>
+    <min_mta_version client="1.5.8-9.20844"></min_mta_version>
+</meta>
