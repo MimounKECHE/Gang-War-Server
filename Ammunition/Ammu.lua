@@ -39,7 +39,6 @@ addEventHandler("onMarkerHit",resourceRoot,function (hitElement)
       setElementInterior(hitElement,AmmuStors[1],AmmuStors[2],AmmuStors[3],AmmuStors[4])
     elseif getMarkerType(source) == "cylinder" then
       triggerClientEvent("PlayerBayGun",hitElement,ID)
-      outputChatBox("bay ammu")
     end
   end
 end)
