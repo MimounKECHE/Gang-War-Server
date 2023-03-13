@@ -27,7 +27,6 @@ addEventHandler("onColShapeHit",resourceRoot,function(hitElement)
     local Tag = getElementParent(ColSphere)
     local TagId = getElementID(Tag)
     triggerClientEvent("GivPlayerName",hitElement,TagId)
-    outputChatBox(TagId)
   end
 end)
 
@@ -44,13 +43,10 @@ addEventHandler("StartTage", getRootElement(), function ()
       TageTeam = getElementID(ColSphere)
       local playerTeam = getPlayerTeam(source)
       local playerTeamName = getTeamName(playerTeam)
-      outputChatBox(playerTeamName)
-      outputChatBox(TageTeam)
-      if playerTeamName ~= TageTeam then
+      if (playerTeamName ~= TageTeam) and (playerTeamName == "Ballas" or playerTeamName == "Grove Street") then
         local Tag = getElementParent(ColSphere)
         local TagId = TagMeta[playerTeamName].TagId
         local PlayerName = getPlayerName(source)
-        outputChatBox(PlayerName)
         setElementID(Tag,PlayerName)
         setElementModel(Tag,TagId)
         setElementID(ColSphere,playerTeamName)

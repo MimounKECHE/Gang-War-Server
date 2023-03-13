@@ -54,7 +54,6 @@ end)
 addEvent("GivPlayerName", true)
 addEventHandler("GivPlayerName", root,function(Name)
   TXT = Name
-  outputChatBox(TXT)
 end)
 
 
