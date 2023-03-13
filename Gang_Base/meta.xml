@@ -1,0 +1,14 @@
+<meta>
+    <script src="Gang_Base.lua" type="server" />
+    <script src="Gang_BaseC.lua" type="client" />
+    <file src="BaseMap.png" />
+    <file src="BaseMap1.png" />
+    <file src="BaseMap2.png" />
+    <file src="BaseMap3.png" />
+    <file src="BaseMap4.png" />
+    <file src="BaseMap5.png" />
+    <file src="MapLine.png" />
+    <file src="ivs.png" />
+    <file src="x.png" />
+    <min_mta_version client="1.5.8-9.20844"></min_mta_version>
+</meta>
